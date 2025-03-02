@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import axios from 'axios';
 
-const API_URL = "https://persist-assignment-1.onrender.com";
+const API_URL = "https://persist-assignment-1.onrender.com/api/challenges";
 
 export const useChallenges = create((set) => ({
     challenges: [],
